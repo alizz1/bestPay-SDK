@@ -1,0 +1,3 @@
+# Auto Configuration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.ctsi.sddx.bestpay.sdk.config.BestPayAutoConfiguration

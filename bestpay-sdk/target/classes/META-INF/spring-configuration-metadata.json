@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "best-pay",
+      "type": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "best-pay.best-pay-cert-path",
+      "type": "java.lang.String",
+      "description": "翼支付证书路径",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration"
+    },
+    {
+      "name": "best-pay.cert-iv",
+      "type": "java.lang.String",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration"
+    },
+    {
+      "name": "best-pay.cert-pwd",
+      "type": "java.lang.String",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration"
+    },
+    {
+      "name": "best-pay.debug",
+      "type": "java.lang.Boolean",
+      "description": "是否打印翼支付请求报文和响应报文",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "best-pay.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "best-pay.merchant-cert-path",
+      "type": "java.lang.String",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration"
+    },
+    {
+      "name": "best-pay.pay-time-out",
+      "type": "java.lang.Long",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration",
+      "defaultValue": 300
+    },
+    {
+      "name": "best-pay.request-url",
+      "type": "java.lang.String",
+      "description": "翼支付访问域名，仅域名部分",
+      "sourceType": "com.ctsi.sddx.bestpay.sdk.config.BestPayConfiguration"
+    }
+  ],
+  "hints": []
+}
